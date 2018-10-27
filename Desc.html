@@ -2,6 +2,26 @@
 <head>
   <style>
 
+  .container {
+    display: flex:
+    flex-wrap: wrap;
+  }
+.container > div
+             { background-color: springgreen;
+               font-size:20px;
+               padding: 20px;
+               width: 200px;
+               border:5px solid red
+
+   }
+   input[type=text] {
+
+     background-color:yellow;
+   }
+   input[type=number]
+   {
+     background-color: lightgrey;
+   }
     div { font-family: Ariel; font-size:40;
           border:5px dotted red
         }
@@ -15,17 +35,48 @@
           color:blue;text-align:left;
           font-size:50
       }
+
+      #new:hover {
+          font-size:20; color: black;
+          border:1px  solid black;
+          padding:5; background-color:lightblue;
+      }
   </style>
   </head>
 <title> This is a testing document</title>
 <body>
+<div class="container">
+<div>A. This is a new document that i want to write </div>
+<div>B. This is another statement that i wish to correctly write </div>
+<div>C. I am just passing time </div>
+<div>D. This is another stupid waste of time </div>
+<div>E. It is truely of no use to write illogical statements </div>
+</div>
+
+
+
+
+<form>
+  <input name="name" type="text" placeholder="First Name">
+  <input name="name" type="text" placeholder="Last Name">
+  <input name="name" type="number" placeholder="Age"><br><br>
+  <a id="new" href="https://www.w3schools.com/html/">Submit</a>
+</form>
+
+
+<ul>
+  <li> <a href="#section_1">Section_1</li>
+  <li> <a href="#section_2">section_2</li>
+</ul>
   <div> Testing the file </div>
 
-  <h1> This is another testing statement </h1>
-  <h1> This is some more information </h1>
-  <h1> This is flase information </h1>
-  <h2 > This is not good </h2>
-  <h2> This is good </h2>
+  <h1 id="section_1"> This is another testing statement </h1>
+  <p> This is a useless  that has absolutely no significance in this context but i am still writing this statement so that i
+      can see the result of this html code </p>
+
+  <h2 id="section_2"> This is not good </h2>
+  <p> This is the second useless statement , i don't have much to add but still i am writing this to have a better understnading
+    of how the code works for multiple cases </p>
 
   <p>
     This is a new para
